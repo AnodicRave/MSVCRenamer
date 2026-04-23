@@ -1,7 +1,7 @@
 #include <iostream>
+#include "file_tools.h"
 
 int main() {
-	std::cout << "Check" << std::endl;
-
-	return 0;
+   
+    return 0;
 }
