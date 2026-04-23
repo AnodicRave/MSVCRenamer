@@ -4,9 +4,9 @@
 
 namespace file_tools {
 
-	std::vector<std::filesystem::path> FindFiles(const std::filesystem& dir, const std::string& extension);
+	std::vector<std::filesystem::path> FindFiles(const std::filesystem::path& dir, const std::string& extension);
 
-	bool BackupFile(const std::filesystem& filePath);
+	bool CreateBackup(const std::filesystem::path& filePath);
 
 	bool ReadFileToString(const std::filesystem::path& filePath, std::string& content);
 
