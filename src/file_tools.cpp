@@ -1,7 +1,6 @@
-#include "file_tools.h"
 #include <fstream>
 #include <iostream>
-
+#include "file_tools.h"
 
 std::vector<fs::path> file_tools::FindFiles(const fs::path& dir, const std::string& extension){
 	std::vector<fs::path> result{};

@@ -13,5 +13,4 @@ namespace file_tools {
 	bool ReadFileToString(const fs::path& filePath, std::string& content);
 
 	bool WriteStringToFile(const fs::path& filePath, const std::string& content);
-
 }
