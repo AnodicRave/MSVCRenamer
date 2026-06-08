@@ -4,8 +4,8 @@
 
 namespace fs = std::filesystem;
 
-bool ProcessVcxprojFile(const fs::path& vcxprojPath, const std::string& oldName, const std::string& newName);
+bool ProcessVcxprojFile(const fs::path& path, const std::string& oldName, const std::string& newName);
 
-bool ProcessFiltersFile(const fs::path& vcxprojPath, const std::string& oldName, const std::string& newName);
+bool ProcessFiltersFile(const fs::path& path, const std::string& oldName, const std::string& newName);
 
-bool ProcessUserFile(const fs::path& vcxprojPath, const std::string& oldName, const std::string& newName);
+bool ProcessUserFile(const fs::path& path, const std::string& oldName, const std::string& newName);
